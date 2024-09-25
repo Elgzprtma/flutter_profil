@@ -5,7 +5,6 @@ import 'package:url_launcher/url_launcher.dart'; // Untuk membuka link
 class Page2 extends StatelessWidget {
   const Page2({Key? key}) : super(key: key);
 
-  // Fungsi untuk membuka link
   void _launchURL(String url) async {
     if (await canLaunch(url)) {
       await launch(url);
@@ -62,7 +61,7 @@ class Page2 extends StatelessWidget {
                     ),
                     SizedBox(height: 10),
                     Text(
-                      "Saya adalah seorang junior back-end developer yang saat ini masih menempuh Sekolah Menengah Kejuruan di SMK Wikrama, dengan minat besar dalam coding dan pemecahan masalah. Saya memiliki pemahaman yang cukup baik tentang Java, PHP, dan JavaScript (Pemula), serta berpengalaman menggunakan framework seperti Laravel dan Spring Boot. Saya selalu berusaha untuk terus belajar dan berkembang di bidang ini, serta mencari kesempatan untuk terlibat dalam proyek-proyek menarik. Tujuan saya adalah membangun sistem back-end yang skalabel dan efisien, sambil terus mengikuti perkembangan teknologi terbaru dan tren industri.",
+                      "Saya adalah seorang junior back-end developer yang saat ini masih menempuh Sekolah Menengah Kejuruan di SMK Wikrama, dengan minat besar dalam coding dan pemecahan masalah. Saya memiliki pemahaman yang cukup baik tentang Java, PHP, dan JavaScript (Pemula), serta berpengalaman menggunakan framework seperti Laravel dan Spring Boot.",
                     ),
                   ],
                 ),
@@ -88,7 +87,7 @@ class Page2 extends StatelessWidget {
                     ),
                     SizedBox(height: 10),
                     Text(
-                      "Saya mulai tertarik dengan pemrograman saat belajar bahasa pemograman PHP di sekolah. Sejak itu, saya mendalami pengembangan back-end dengan mempelajari JavaScript, serta framework Laravel dan Spring Boot. Saya telah mengerjakan beberapa proyek kecil yang membantu saya memahami dasar-dasar pengembangan aplikasi. Saat ini, saya terus belajar dan mencari pengalaman baru untuk mengasah kemampuan saya di bidang ini.",
+                      "Saya mulai tertarik dengan pemrograman saat belajar bahasa pemograman di sekolah. Sejak itu, saya mendalami pengembangan back-end dengan mempelajari JavaScript, serta framework Laravel dan Spring Boot. Saya telah mengerjakan beberapa proyek kecil yang membantu saya memahami dasar-dasar pengembangan aplikasi. Saat ini, saya terus belajar dan mencari pengalaman baru untuk mengasah kemampuan saya di bidang ini.",
                     ),
                   ],
                 ),
